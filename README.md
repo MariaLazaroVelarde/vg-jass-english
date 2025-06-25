@@ -46,6 +46,7 @@ ng serve
 - You should check the distribution schedule and report issues.
 
 ## 📁 Repository Structure
+```
 vg-jass-english/
 ├── ms-organizaciones/    # Gestión de organizaciones y sedes
 ├── ms-usuarios/          # Gestión de usuarios del sistema
@@ -57,10 +58,11 @@ vg-jass-english/
 ├── docs/                 # Diagramas, modelos y documentación
 ├── .env.example          # Plantilla de variables de entorno
 └── README.md             # ← Este archivo
+```
 
 ## 🔄 Collections and Relationships (MongoDB)
 📦 Microservices and Collections:
-
+```
 - Main Collections Microservice
 - Organizations, locations
 - Users
@@ -68,10 +70,11 @@ vg-jass-english/
 - Payments, invoices, complaints
 - Distribution of zones, streets, distribution scheduling, rates, distribution incidents
 - Notifications, templates
+```
 
 ## 🚀 Deployment Requirements (Must & Need To)
 You must configure these environment variables:
-
+```
 MONGO_USERNAME=JASS_System
 
 MONGO_PASSWORD=*****
@@ -79,6 +82,8 @@ MONGO_PASSWORD=*****
 MONGO_DATABASE=JASS_DIGITAL
 
 JWT_SECRET=Super_Secret_Key
+```
+
 You need to enable CORS in your Spring Boot configuration.
 
 You must compile the frontend before deploying:
@@ -91,8 +96,10 @@ You should write unit tests (JUnit / Jasmine).
 You should document new endpoints in Swagger or /docs.
 
 ## You should run:
+```
 mvn clean
 npm run lint
+```
 
 ## 📞 Support and Help
 Open an issue in this repository. Tag your microservices manager.
