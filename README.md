@@ -19,14 +19,17 @@ This project is part of a Corporate Social Responsibility (CSR) initiative to pr
 
 ## 🛠️ Installation Instructions (Imperative)
 1. Clone the Backend repository
+```
 git clone https://github.com/MariaLazaroVelarde/vg-jass-english.git
 
 cd vg-jass-english
 
 ./mvnw spring-boot:run
+```
 
 Repeat this step for each microservice 
 2. Clone the FrontEnd repository
+```
 git clone https://github.com/vallegrande/MS-DISTRIBUCION-AGUA-fr-end
 
 cd ../frontend
@@ -34,6 +37,7 @@ cd ../frontend
 npm install
 
 ng serve
+```
 
 ## 🧩 How to Use the System (Tips with "should")
 - You should open http://localhost:4200 after starting the backend and frontend.
